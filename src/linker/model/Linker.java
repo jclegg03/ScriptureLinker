@@ -377,6 +377,8 @@ public class Linker
 		bOfM();
 		oldT();
 		newT();
+		
+		addVerses();
 	}
 	
 	private void dAndC()
@@ -931,5 +933,39 @@ public class Linker
 		newT.addBook(john3, 24);
 		newT.addBook(jude, 25);
 		newT.addBook(revelation, 26);
+	}
+	
+	private void addVerses()
+	{
+		dAndCVerses();
+		pOfGPVerses();
+		bOfMVerses();
+		oldTVerses();
+		newTVerses();
+	}
+	
+	private void dAndCVerses()
+	{
+		
+	}
+	
+	private void pOfGPVerses()
+	{
+		
+	}
+	
+	private void bOfMVerses()
+	{
+		
+	}
+	
+	private void oldTVerses()
+	{
+		
+	}
+	
+	private void newTVerses()
+	{
+		
 	}
 }
