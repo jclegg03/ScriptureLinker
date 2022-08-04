@@ -25,6 +25,7 @@ class Book
 		this.name = name;
 		this.chapters = chapters;
 		this.link = link;
+		this.verses = new int[chapters];
 		
 		for(String abbreviation : abbreviations)
 		{
