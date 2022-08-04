@@ -951,7 +951,28 @@ public class Linker
 	
 	private void pOfGPVerses()
 	{
-		
+		pOfGP.addVerses("Moses",1,42);
+		pOfGP.addVerses("Moses",2,31);
+		pOfGP.addVerses("Moses",3,25);
+		pOfGP.addVerses("Moses",4,32);
+		pOfGP.addVerses("Moses",5,59);
+		pOfGP.addVerses("Moses",6,68);
+		pOfGP.addVerses("Moses",7,69);
+		pOfGP.addVerses("Moses",8,30);
+
+		pOfGP.addVerses("Abraham",1,31);
+		pOfGP.addVerses("Abraham",2,25);
+		pOfGP.addVerses("Abraham",3,28);
+		pOfGP.addVerses("Abraham",4,31);
+		pOfGP.addVerses("Abraham",5,21);
+
+		pOfGP.addVerses("Facsimily",1,0);
+		pOfGP.addVerses("Facsimily",1,0);
+		pOfGP.addVerses("Facsimily",1,0);
+
+		pOfGP.addVerses("JS-M",1,55);
+
+		pOfGP.addVerses("JS-H",1,75);
 	}
 	
 	private void bOfMVerses()
