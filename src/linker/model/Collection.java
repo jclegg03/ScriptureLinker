@@ -39,4 +39,9 @@ class Collection
 	{
 		return name;
 	}
+	
+	public void setVerses(String book, int chapter, int verses)
+	{
+		getBook(book).setVerses(chapter, verses);
+	}
 }

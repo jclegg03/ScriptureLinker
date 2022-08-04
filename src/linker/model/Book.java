@@ -8,6 +8,7 @@ class Book
 	private String name;
 	private int chapters;
 	private String link;
+	private int[] verses;
 	
 	public Book(String name, int chapters, String link)
 	{
@@ -15,6 +16,7 @@ class Book
 		this.name = name.replaceAll(" ", "").toUpperCase();
 		this.chapters = chapters;
 		this.link = link;
+		this.verses = new int[chapters];
 	}
 	
 	public Book(String name, int chapters, String[] abbreviations, String link)
@@ -58,5 +60,15 @@ class Book
 	public ArrayList<String> getAbbreviations()
 	{
 		return abbreviations;
+	}
+	
+	public int getVerses(int chapter)
+	{
+		return verses[chapter - 1];
+	}
+	
+	public void setVerses(int chapter, int verses)
+	{
+		this.verses[chapter - 1] = verses;
 	}
 }
