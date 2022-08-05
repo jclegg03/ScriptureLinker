@@ -47,6 +47,8 @@ public class Linker
 		
 		Collection collection;
 		
+		scripture = scripture.toUpperCase().replace(" ", "");
+		
 		if(dAndC.getBook(scripture) != null)
 		{
 			collection = dAndC;
