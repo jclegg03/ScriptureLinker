@@ -203,30 +203,10 @@ public class Linker
 	
 	private void buildLink(String name, int chapter, int startVerse, int endVerse)
 	{
-		Collection collection;
+		Collection collection = collectionContaining(name);
 		Book book;
 		
-		if(dAndC.getBook(name) != null)
-		{
-			collection = dAndC;
-		}
-		else if(pOfGP.getBook(name) != null)
-		{
-			collection = pOfGP;
-		}
-		else if(bOfM.getBook(name) != null)
-		{
-			collection = bOfM;
-		}
-		else if(oldT.getBook(name) != null)
-		{
-			collection = oldT;
-		}
-		else if(newT.getBook(name) != null)
-		{
-			collection = newT;
-		}
-		else
+		if(collection == null)
 		{
 			link = "The book \"" + name + "\" was not found.";
 			return;
@@ -365,6 +345,36 @@ public class Linker
 		
 		link = baseLink;
 	}
+	
+	private Collection collectionContaining(String name)
+	{
+		Collection collection = null;
+		
+		if(dAndC.getBook(name) != null)
+		{
+			collection = dAndC;
+		}
+		else if(pOfGP.getBook(name) != null)
+		{
+			collection = pOfGP;
+		}
+		else if(bOfM.getBook(name) != null)
+		{
+			collection = bOfM;
+		}
+		else if(oldT.getBook(name) != null)
+		{
+			collection = oldT;
+		}
+		else if(newT.getBook(name) != null)
+		{
+			collection = newT;
+		}
+		
+		return collection;
+	}
+	
+	
 	
 	private void setupScriptures()
 	{
