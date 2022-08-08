@@ -841,7 +841,7 @@ public class Linker
 		titus.addAbbreviation("tts");
 		titus.addAbbreviation("tit");
 		
-		Book philemon = new Book("philmon", 1, "/philem/");
+		Book philemon = new Book("philemon", 1, "/philem/");
 		philemon.addAbbreviation("phm");
 		philemon.addAbbreviation("philem");
 		philemon.addAbbreviation("phlm");
@@ -857,7 +857,7 @@ public class Linker
 		james.addAbbreviation("jms");
 		james.addAbbreviation("jam");
 		
-		Book peter1 = new Book("peter", 5, "/1-pet/");
+		Book peter1 = new Book("1peter", 5, "/1-pet/");
 		peter1.addAbbreviation("1pet");
 		peter1.addAbbreviation("1-pet");
 		peter1.addAbbreviation("1-petr");
@@ -865,7 +865,7 @@ public class Linker
 		peter1.addAbbreviation("1ptr");
 		peter1.addAbbreviation("1-ptr");
 		
-		Book peter2 = new Book("peter", 3, "/2-pet/");
+		Book peter2 = new Book("2peter", 3, "/2-pet/");
 		peter2.addAbbreviation("2pet");
 		peter2.addAbbreviation("2-pet");
 		peter2.addAbbreviation("2-petr");
@@ -2347,6 +2347,291 @@ public class Linker
 	
 	private void newTVerses()
 	{
+		newT.addVerses("Matthew",1,25);
+		newT.addVerses("Matthew",2,23);
+		newT.addVerses("Matthew",3,17);
+		newT.addVerses("Matthew",4,25);
+		newT.addVerses("Matthew",5,48);
+		newT.addVerses("Matthew",6,34);
+		newT.addVerses("Matthew",7,29);
+		newT.addVerses("Matthew",8,34);
+		newT.addVerses("Matthew",9,38);
+		newT.addVerses("Matthew",10,42);
+		newT.addVerses("Matthew",11,30);
+		newT.addVerses("Matthew",12,50);
+		newT.addVerses("Matthew",13,58);
+		newT.addVerses("Matthew",14,36);
+		newT.addVerses("Matthew",15,39);
+		newT.addVerses("Matthew",16,28);
+		newT.addVerses("Matthew",17,27);
+		newT.addVerses("Matthew",18,35);
+		newT.addVerses("Matthew",19,30);
+		newT.addVerses("Matthew",20,34);
+		newT.addVerses("Matthew",21,46);
+		newT.addVerses("Matthew",22,46);
+		newT.addVerses("Matthew",23,39);
+		newT.addVerses("Matthew",24,51);
+		newT.addVerses("Matthew",25,46);
+		newT.addVerses("Matthew",26,75);
+		newT.addVerses("Matthew",27,66);
+		newT.addVerses("Matthew",28,20);
 		
+		newT.addVerses("mark",1,45);
+		newT.addVerses("mark",2,28);
+		newT.addVerses("mark",3,35);
+		newT.addVerses("mark",4,41);
+		newT.addVerses("mark",5,43);
+		newT.addVerses("mark",6,56);
+		newT.addVerses("mark",7,37);
+		newT.addVerses("mark",8,38);
+		newT.addVerses("mark",9,50);
+		newT.addVerses("mark",10,52);
+		newT.addVerses("mark",11,33);
+		newT.addVerses("mark",12,44);
+		newT.addVerses("mark",13,37);
+		newT.addVerses("mark",14,72);
+		newT.addVerses("mark",15,47);
+		newT.addVerses("mark",16,20);
+		
+		newT.addVerses("luke",1,80);
+		newT.addVerses("luke",2,52);
+		newT.addVerses("luke",3,38);
+		newT.addVerses("luke",4,44);
+		newT.addVerses("luke",5,39);
+		newT.addVerses("luke",6,49);
+		newT.addVerses("luke",7,50);
+		newT.addVerses("luke",8,56);
+		newT.addVerses("luke",9,62);
+		newT.addVerses("luke",10,42);
+		newT.addVerses("luke",11,54);
+		newT.addVerses("luke",12,59);
+		newT.addVerses("luke",13,35);
+		newT.addVerses("luke",14,35);
+		newT.addVerses("luke",15,32);
+		newT.addVerses("luke",16,31);
+		newT.addVerses("luke",17,37);
+		newT.addVerses("luke",18,43);
+		newT.addVerses("luke",19,48);
+		newT.addVerses("luke",20,47);
+		newT.addVerses("luke",21,38);
+		newT.addVerses("luke",22,71);
+		newT.addVerses("luke",23,56);
+		newT.addVerses("luke",24,53);
+		
+		newT.addVerses("john",1,51);
+		newT.addVerses("john",2,25);
+		newT.addVerses("john",3,36);
+		newT.addVerses("john",4,54);
+		newT.addVerses("john",5,47);
+		newT.addVerses("john",6,71);
+		newT.addVerses("john",7,53);
+		newT.addVerses("john",8,59);
+		newT.addVerses("john",9,41);
+		newT.addVerses("john",10,42);
+		newT.addVerses("john",11,57);
+		newT.addVerses("john",12,50);
+		newT.addVerses("john",13,38);
+		newT.addVerses("john",14,31);
+		newT.addVerses("john",15,27);
+		newT.addVerses("john",16,33);
+		newT.addVerses("john",17,26);
+		newT.addVerses("john",18,40);
+		newT.addVerses("john",19,42);
+		newT.addVerses("john",20,31);
+		newT.addVerses("john",21,25);
+		
+		newT.addVerses("acts",1,26);
+		newT.addVerses("acts",2,47);
+		newT.addVerses("acts",3,26);
+		newT.addVerses("acts",4,37);
+		newT.addVerses("acts",5,42);
+		newT.addVerses("acts",6,15);
+		newT.addVerses("acts",7,60);
+		newT.addVerses("acts",8,40);
+		newT.addVerses("acts",9,43);
+		newT.addVerses("acts",10,48);
+		newT.addVerses("acts",11,30);
+		newT.addVerses("acts",12,25);
+		newT.addVerses("acts",13,52);
+		newT.addVerses("acts",14,28);
+		newT.addVerses("acts",15,41);
+		newT.addVerses("acts",16,40);
+		newT.addVerses("acts",17,34);
+		newT.addVerses("acts",18,28);
+		newT.addVerses("acts",19,41);
+		newT.addVerses("acts",20,38);
+		newT.addVerses("acts",21,40);
+		newT.addVerses("acts",22,30);
+		newT.addVerses("acts",23,35);
+		newT.addVerses("acts",24,27);
+		newT.addVerses("acts",25,27);
+		newT.addVerses("acts",26,32);
+		newT.addVerses("acts",27,44);
+		newT.addVerses("acts",28,31);
+		
+		newT.addVerses("romans",1,32);
+		newT.addVerses("romans",2,29);
+		newT.addVerses("romans",3,31);
+		newT.addVerses("romans",4,25);
+		newT.addVerses("romans",5,21);
+		newT.addVerses("romans",6,23);
+		newT.addVerses("romans",7,25);
+		newT.addVerses("romans",8,39);
+		newT.addVerses("romans",9,33);
+		newT.addVerses("romans",10,21);
+		newT.addVerses("romans",11,36);
+		newT.addVerses("romans",12,21);
+		newT.addVerses("romans",13,14);
+		newT.addVerses("romans",14,23);
+		newT.addVerses("romans",15,33);
+		newT.addVerses("romans",16,27);
+		
+		newT.addVerses("1corinthians",1,31);
+		newT.addVerses("1corinthians",2,16);
+		newT.addVerses("1corinthians",3,23);
+		newT.addVerses("1corinthians",4,21);
+		newT.addVerses("1corinthians",5,13);
+		newT.addVerses("1corinthians",6,20);
+		newT.addVerses("1corinthians",7,40);
+		newT.addVerses("1corinthians",8,13);
+		newT.addVerses("1corinthians",9,27);
+		newT.addVerses("1corinthians",10,33);
+		newT.addVerses("1corinthians",11,34);
+		newT.addVerses("1corinthians",12,31);
+		newT.addVerses("1corinthians",13,13);
+		newT.addVerses("1corinthians",14,40);
+		newT.addVerses("1corinthians",15,58);
+		newT.addVerses("1corinthians",16,24);
+		
+		newT.addVerses("2corinthians",1,24);
+		newT.addVerses("2corinthians",2,17);
+		newT.addVerses("2corinthians",3,18);
+		newT.addVerses("2corinthians",4,18);
+		newT.addVerses("2corinthians",5,21);
+		newT.addVerses("2corinthians",6,18);
+		newT.addVerses("2corinthians",7,16);
+		newT.addVerses("2corinthians",8,24);
+		newT.addVerses("2corinthians",9,15);
+		newT.addVerses("2corinthians",10,18);
+		newT.addVerses("2corinthians",11,33);
+		newT.addVerses("2corinthians",12,21);
+		newT.addVerses("2corinthians",13,14);
+		
+		newT.addVerses("galatians",1,24);
+		newT.addVerses("galatians",2,21);
+		newT.addVerses("galatians",3,29);
+		newT.addVerses("galatians",4,31);
+		newT.addVerses("galatians",5,26);
+		newT.addVerses("galatians",6,18);
+		
+		newT.addVerses("ephesians",1,23);
+		newT.addVerses("ephesians",2,22);
+		newT.addVerses("ephesians",3,21);
+		newT.addVerses("ephesians",4,32);
+		newT.addVerses("ephesians",5,33);
+		newT.addVerses("ephesians",6,24);
+		
+		newT.addVerses("philippians",1,30);
+		newT.addVerses("philippians",2,30);
+		newT.addVerses("philippians",3,21);
+		newT.addVerses("philippians",4,23);
+		
+		newT.addVerses("colossians",1,29);
+		newT.addVerses("colossians",2,23);
+		newT.addVerses("colossians",3,25);
+		newT.addVerses("colossians",4,18);
+		
+		newT.addVerses("1thes",1,10);
+		newT.addVerses("1thes",2,20);
+		newT.addVerses("1thes",3,13);
+		newT.addVerses("1thes",4,18);
+		newT.addVerses("1thes",5,28);
+		
+		newT.addVerses("2thes",1,12);
+		newT.addVerses("2thes",2,17);
+		newT.addVerses("2thes",3,18);
+		
+		newT.addVerses("1tim",1,20);
+		newT.addVerses("1tim",2,15);
+		newT.addVerses("1tim",3,16);
+		newT.addVerses("1tim",4,16);
+		newT.addVerses("1tim",5,25);
+		newT.addVerses("1tim",6,21);
+		
+		newT.addVerses("2tim",1,18);
+		newT.addVerses("2tim",2,26);
+		newT.addVerses("2tim",3,17);
+		newT.addVerses("2tim",4,22);
+		
+		newT.addVerses("titus",1,16);
+		newT.addVerses("titus",2,15);
+		newT.addVerses("titus",3,15);
+		
+		newT.addVerses("philemon",1,25);
+		
+		newT.addVerses("heb",1,14);
+		newT.addVerses("heb",2,18);
+		newT.addVerses("heb",3,19);
+		newT.addVerses("heb",4,16);
+		newT.addVerses("heb",5,14);
+		newT.addVerses("heb",6,20);
+		newT.addVerses("heb",7,28);
+		newT.addVerses("heb",8,13);
+		newT.addVerses("heb",9,28);
+		newT.addVerses("heb",10,39);
+		newT.addVerses("heb",11,40);
+		newT.addVerses("heb",12,29);
+		newT.addVerses("heb",13,25);
+		
+		newT.addVerses("james",1,27);
+		newT.addVerses("james",2,26);
+		newT.addVerses("james",3,18);
+		newT.addVerses("james",4,17);
+		newT.addVerses("james",5,20);
+		
+		newT.addVerses("1peter",1,25);
+		newT.addVerses("1peter",2,25);
+		newT.addVerses("1peter",3,22);
+		newT.addVerses("1peter",4,19);
+		newT.addVerses("1peter",5,14);
+		
+		newT.addVerses("2peter",1,21);
+		newT.addVerses("2peter",2,22);
+		newT.addVerses("2peter",3,18);
+		
+		newT.addVerses("1john",1,10);
+		newT.addVerses("1john",2,29);
+		newT.addVerses("1john",3,24);
+		newT.addVerses("1john",4,21);
+		newT.addVerses("1john",5,21);
+		
+		newT.addVerses("2john",1,13);
+		
+		newT.addVerses("3john",1,14);
+		
+		newT.addVerses("jude",1,25);
+		
+		newT.addVerses("rev",1,20);
+		newT.addVerses("rev",2,29);
+		newT.addVerses("rev",3,22);
+		newT.addVerses("rev",4,11);
+		newT.addVerses("rev",5,14);
+		newT.addVerses("rev",6,17);
+		newT.addVerses("rev",7,17);
+		newT.addVerses("rev",8,13);
+		newT.addVerses("rev",9,21);
+		newT.addVerses("rev",10,11);
+		newT.addVerses("rev",11,19);
+		newT.addVerses("rev",12,17);
+		newT.addVerses("rev",13,18);
+		newT.addVerses("rev",14,20);
+		newT.addVerses("rev",15,8);
+		newT.addVerses("rev",16,21);
+		newT.addVerses("rev",17,18);
+		newT.addVerses("rev",18,24);
+		newT.addVerses("rev",19,21);
+		newT.addVerses("rev",20,15);
+		newT.addVerses("rev",21,27);
+		newT.addVerses("rev",22,21);
 	}
 }
